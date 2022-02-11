@@ -1,1 +1,1 @@
-("~/work/promotions-api/" "~/work/pub-sub/" "~/.emacs.d/" "~/dev/c_lisp/" "~/dev/noise/" "~/work/node-api/" "~/dev/follow_along/" "~/work/react-mobile-app/")
+("~/.emacs.d/" "~/work/promotions-api/" "~/work/pub-sub/" "~/dev/c_lisp/" "~/dev/noise/" "~/work/node-api/" "~/dev/follow_along/" "~/work/react-mobile-app/")
