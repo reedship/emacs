@@ -1,0 +1,1 @@
+("~/dev/pragmatic/flix/" "~/dev/messenger/" "~/.config/nvim/" "~/dev/dynamic_ruby_programming/" "~/dev/OpenGLOnMac/" "~/dev/cabinet/" "~/dev/django_practice/" "~/dev/demo/" "~/dev/simpleokta/")
