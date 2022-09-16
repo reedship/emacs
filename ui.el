@@ -2,6 +2,11 @@
 ;;(display-line-numbers-mode 1)
 
 (column-number-mode)
+(tool-bar-mode 0)
+(menu-bar-mode 0)
+(scroll-bar-mode 0)
+(set-fringe-mode 10)
+(desktop-save-mode 1)
 
 ;; Enable line numbers for some modes
 (dolist (mode '(text-mode-hook
@@ -13,15 +18,11 @@
 (dolist (mode '(org-mode-hook))
   (add-hook mode (lambda () (display-line-numbers-mode 0))))
 
-(tool-bar-mode 0)
-(menu-bar-mode 0)
-(scroll-bar-mode 0)
-(set-fringe-mode 10)
-(desktop-save-mode 1)
-;;(set-frame-parameter (selected-frame) 'alpha '(90 . 90))
-;;  (add-to-list 'default-frame-alist '(alpha . (90 . 90)))
-  ;;(set-frame-parameter (selected-frame) 'fullscreen 'maximized)
-  ;;(add-to-list 'default-frame-alist '(fullscreen . maximized))
+;; Set transparency
+(set-frame-parameter (selected-frame) 'alpha '(90 . 90))
+  (add-to-list 'default-frame-alist '(alpha . (90 . 90)))
+  (set-frame-parameter (selected-frame) 'fullscreen 'maximized)
+  (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;; font face
 (set-frame-font "Fira Mono 22" nil t)
@@ -30,5 +31,6 @@
 (setq ring-bell-function 'ignore)
 (setq scroll-conservatively 100)
 (setq even-window-sizes nil)
+
 ;; change current active window buffer face
 (set-face-attribute 'mode-line nil :background "#165D8F")
