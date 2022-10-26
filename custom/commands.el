@@ -30,3 +30,4 @@
 (global-set-key (kbd "C-c C-r") 'comment-region)
 (global-set-key (kbd "C-c C-u") 'uncomment-region)
 (global-set-key (kbd "C-x C-b") 'bufler)
+(global-set-key (kbd "C-x f") 'imenu)

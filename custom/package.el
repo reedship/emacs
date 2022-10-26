@@ -13,3 +13,4 @@
 (when (not (package-installed-p 'use-package))
   (package-refresh-contents)
   (package-install 'use-package))
+(setf use-package-always-ensure t)

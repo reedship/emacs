@@ -1,1 +1,1 @@
-("~/dev/pragmatic/flix/" "~/dev/messenger/" "~/.config/nvim/" "~/dev/dynamic_ruby_programming/" "~/dev/OpenGLOnMac/" "~/dev/cabinet/" "~/dev/django_practice/" "~/dev/demo/" "~/dev/simpleokta/")
+("~/.emacs.d/" "~/dev/tts-converter/" "~/dev/youtube/" "~/dev/testing_ruby/" "~/dev/rpn_calc/" "~/dev/one_api_sdk/" "~/dev/simpleokta/" "~/.emacs.d/elpa/vterm-20220831.835/")
