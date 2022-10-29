@@ -12,7 +12,6 @@
 (load "~/.emacs.d/custom/theme.el")
 (load "~/.emacs.d/custom/dashboard.el")
 
-
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -61,7 +60,7 @@
  '(mini-modeline-face-attr '(:background unspecified))
  '(org-src-block-faces 'nil)
  '(package-selected-packages
-   '(multiple-cursors which-key all-the-icons page-break-lines hl-todo org-bullets visual-fill-column command-log-mode dashboard markdown-preview-mode creamsody-theme fira-code-mode vterm zzz-to-char docker markdown-mode web-mode helm-rails projectile-rails yaml-mode exec-path-from-shell org-plus-contrib counsel modus-themes ef-themes windresize cl-libify ctable bufler dired-ranger dired-single all-the-icons-dired dired-collapse dired-rainbow default-text-scale diminish ws-butler tree-sitter company magit ivy projectile gruber-darker-theme ag use-package))
+   '(writeroom-mode typescript-mode multiple-cursors which-key all-the-icons page-break-lines hl-todo org-bullets visual-fill-column command-log-mode dashboard markdown-preview-mode creamsody-theme fira-code-mode vterm zzz-to-char docker markdown-mode web-mode helm-rails projectile-rails yaml-mode exec-path-from-shell org-plus-contrib counsel modus-themes ef-themes windresize cl-libify ctable bufler dired-ranger dired-single all-the-icons-dired dired-collapse dired-rainbow default-text-scale diminish ws-butler tree-sitter company magit ivy projectile gruber-darker-theme ag use-package))
  '(pdf-view-midnight-colors '("#ffffff" . "#100f10"))
  '(pos-tip-background-color "#1A3734")
  '(pos-tip-foreground-color "#FFFFC8")

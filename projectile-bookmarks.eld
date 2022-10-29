@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/dev/tts-converter/" "~/dev/youtube/" "~/dev/testing_ruby/" "~/dev/rpn_calc/" "~/dev/one_api_sdk/" "~/dev/simpleokta/" "~/.emacs.d/elpa/vterm-20220831.835/")
+("~/.emacs.d/" "~/dev/simpleokta/" "~/dev/youtube/" "~/.emacs.d/elpa/vterm-20220831.835/")

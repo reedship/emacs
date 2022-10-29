@@ -15,6 +15,6 @@
 
 ;; TODO
 ;; Load the theme of your choice:
-(modus-themes-load-operandi) ;; OR (modus-themes-load-vivendi)
+(modus-themes-load-vivendi) ;; OR (modus-themes-load-operandi)
 ;;(load-theme 'ef-duo-light)
 (define-key global-map (kbd "<f5>") #'modus-themes-toggle)
