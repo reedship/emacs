@@ -62,7 +62,7 @@
 ;; desktop save mode
 (desktop-save-mode 0)
 (setq make-backup-files nil)
-(global-fira-code-mode)
+;;(global-fira-code-mode)
 
 (setq hl-todo-keyword-faces '(("TODO" . "#00008B")
                               ("HACK" . "#ffff00")

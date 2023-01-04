@@ -8,7 +8,7 @@
 (load "~/.emacs.d/custom/general.el")
 (load "~/.emacs.d/custom/commands.el")
 (load "~/.emacs.d/custom/ui.el")
-(load "~/.emacs.d/custom/fira.el")
+;;(load "~/.emacs.d/custom/fira.el")
 (load "~/.emacs.d/custom/theme.el")
 (load "~/.emacs.d/custom/dashboard.el")
 

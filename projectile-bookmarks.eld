@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/dev/simpleokta/" "~/dev/youtube/" "~/.emacs.d/elpa/vterm-20220831.835/")
+("~/.emacs.d/")

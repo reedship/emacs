@@ -2,7 +2,7 @@
   :ensure t
   )
 
-(setq dashboard-startup-banner 2)
+(setq dashboard-startup-banner 'logo)
 ;;(setq dashboard-projects-backend . "projectile")
 (setq dashboard-items '((recents  . 5)
                         (bookmarks . 5)

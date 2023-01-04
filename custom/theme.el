@@ -10,11 +10,11 @@
        )
 
 ;; Load the theme files before enabling a theme
-(modus-themes-load-themes)
+;;(modus-themes-load-themes)
 
 
 ;; TODO
 ;; Load the theme of your choice:
-(modus-themes-load-vivendi) ;; OR (modus-themes-load-operandi)
-;;(load-theme 'ef-duo-light)
+;;(modus-themes-load-vivendi) ;; OR (modus-themes-load-operandi)
+(load-theme 'modus-operandi t)
 (define-key global-map (kbd "<f5>") #'modus-themes-toggle)
