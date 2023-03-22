@@ -47,6 +47,10 @@
 ;; Ivy mode
 (ivy-mode 1)
 
+;; windows specific settings
+(if (eq 'system-type "windows-nt")
+    (setq default-directory "C:\\Users\\reed\\")
+)
 ;; which-key
 
 ;; make sure which-key doesn't show normally but refreshes quickly after it is
