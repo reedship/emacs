@@ -15,6 +15,10 @@
   :config
   (default-text-scale-mode))
 
+;; smex
+
+(global-set-key (kbd "M-x") 'smex)
+
 ;; savehist
 (savehist-mode)
 (setq savehist-additional-variables '(kill-ring search-ring regexp-search-ring))
