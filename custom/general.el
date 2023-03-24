@@ -16,7 +16,7 @@
   (default-text-scale-mode))
 
 ;; smex
-
+(require 'smex)
 (global-set-key (kbd "M-x") 'smex)
 
 ;; savehist
