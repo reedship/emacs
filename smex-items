@@ -1,0 +1,67 @@
+
+;; ----- smex-history -----
+(
+ emacs-version
+ scratch
+ ef-themes-select
+ scroll-down-command
+ scroll-up-command
+ replace-regexp
+ global-hl-line-mode
+)
+
+;; ----- smex-data -----
+(
+ (load-theme . 5)
+ (magit-clone . 1)
+ (projectile-add-known-project . 8)
+ (disable-theme . 5)
+ (eshell . 1)
+ (emacs-version . 2)
+ (package-install . 3)
+ (package-refresh-contents . 1)
+ (lsp . 1)
+ (lsp-mode . 3)
+ (lsp-modeline-diagnostics-mode . 3)
+ (eglot . 2)
+ (describe-keymap . 3)
+ (describe-key . 2)
+ (org-cycle . 1)
+ (mouse-set-mark . 1)
+ (set-mark-command . 2)
+ (describe-symbol . 2)
+ (projectile-remove-known-project . 2)
+ (pwd . 1)
+ (toggle-word-wrap . 4)
+ (enable-theme . 1)
+ (modus-themes-select . 2)
+ (mkdir . 2)
+ (describe-theme . 1)
+ (customize-themes . 1)
+ (magit-revert . 1)
+ (magit-blame . 5)
+ (visual-fill-column-mode . 6)
+ (load-file . 1)
+ (visual-line-mode . 5)
+ (org-edit-headline . 1)
+ (replace-string . 12)
+ (replace-regexp . 5)
+ (query-replace . 1)
+ (markdown-table-align . 17)
+ (markdown-table-insert-row . 1)
+ (ef-themes-select . 12)
+ (org-publish . 1)
+ (org-insert-structure-template . 1)
+ (org-export-insert-default-template . 1)
+ (writeroom-mode . 6)
+ (set-left-margin . 2)
+ (hl-line-mode . 4)
+ (org-latex-export-to-pdf . 1)
+ (describe-mode . 1)
+ (global-hl-line-mode . 1)
+ (org-latex-export-as-latex . 1)
+ (org-latex-export-to-latex . 1)
+ (scroll-up-command . 1)
+ (scroll-down-command . 1)
+ (scratch . 1)
+)

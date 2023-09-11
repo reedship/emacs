@@ -25,7 +25,6 @@
   (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;; font face
-(global-hl-line-mode)
 (set-window-scroll-bars (minibuffer-window) nil nil)
 (setq ring-bell-function 'ignore)
 (setq scroll-conservatively 100)

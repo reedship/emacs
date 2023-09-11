@@ -1,1 +1,1 @@
-("~/.emacs.d/")
+("~/dev/writing/narratives/" "~/work/vsmart-client/" "~/work/Documentation/" "~/.emacs.d/" "~/dev/todos_node/" "~/work/" "~/dev/ogldev/" "//wsl$/Ubuntu/home/reed/work/payment-gateway-react/" "~/dev/front-end-masters/kata-machine/" "~/dev/front-end-masters/algorithms/" "~/dev/cshell/" "~/dev/react-port/" "~/dev/company/" "~/dev/OpenGLApplication/")

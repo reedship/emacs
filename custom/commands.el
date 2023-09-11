@@ -31,3 +31,5 @@
 (global-set-key (kbd "C-c C-u") 'uncomment-region)
 (global-set-key (kbd "C-x C-b") 'bufler)
 (global-set-key (kbd "C-x f") 'imenu)
+(global-set-key (kbd "C-SPC") 'set-mark-command)
+(global-set-key (kbd "C-SPC") 'set-mark-command)

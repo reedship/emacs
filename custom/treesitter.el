@@ -6,6 +6,7 @@
   ;; you can easily see the difference tree-sitter-hl-mode makes for python, ts or tsx
   ;; by switching on and off
   (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode))
+(setq lsp-ui-sideline-enable t)
 
 (use-package tree-sitter-langs
   :ensure t

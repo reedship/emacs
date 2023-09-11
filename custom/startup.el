@@ -11,7 +11,6 @@
                               (time-subtract after-init-time before-init-time)))
                      gcs-done))
 	  (add-to-list 'default-frame-alist '(fullscreen . maximized)) ;;always start fullscreen
-          (split-window-horizontally) ;; always start with two windows side by side
 	  )
 
 (setq dw/is-termux

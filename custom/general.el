@@ -54,7 +54,13 @@
 ;; windows specific settings
 (if (eq 'system-type "windows-nt")
     (setq default-directory "C:\\Users\\reed\\")
-)
+  )
+(defun no-junk-please-were-unixish ()
+  (let ((coding-str (symbol-name buffer-file-coding-system)))
+    (when (string-match "-\\(?:dos\\|mac\\)$" coding-str)
+      (set-buffer-file-coding-system 'unix))))
+
+(add-hook 'find-file-hooks 'no-junk-please-were-unixish)
 ;; which-key
 
 ;; make sure which-key doesn't show normally but refreshes quickly after it is
@@ -76,4 +82,3 @@
                               ("HACK" . "#ffff00")
                               ("XXX" . "#00ffff")
                               ("NOTE" . "#ff00ff")))
-(global-hl-line-mode)

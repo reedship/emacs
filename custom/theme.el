@@ -8,4 +8,4 @@
 ;;       modus-themes-hl-line '(accented)
 ;;       modus-themes-mixed-fonts t
 ;;       )
-(load-theme 'ef-night t)
+(load-theme 'modus-operandi-deuteranopia t)
