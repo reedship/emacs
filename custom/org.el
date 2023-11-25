@@ -5,10 +5,10 @@
 ;; Configure fill width
 (setq visual-fill-column-width 110
       visual-fill-column-center-text t)
-(add-hook 'org-mode-hook 'writeroom-mode)
+;;(add-hook 'org-mode-hook 'writeroom-mode)
 (add-hook 'org-mode-hook 'visual-line-mode)
 (defun reed/startup-org ()
-  (writeroom-mode 1)
+;;  (writeroom-mode 1)
   (visual-line-mode 1)
   (hl-line-mode -1))
 (add-hook 'org-mode-hook 'reed/startup-org)

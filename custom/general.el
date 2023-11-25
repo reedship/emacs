@@ -1,5 +1,9 @@
+(unless (package-installed-p 'projectile)
+  (package-install 'projectile))
 ;; Configure shell to pull pash from ~/.zshrc
 (when (memq window-system '(mac ns x))
+  (setq image-types (cons 'svg image-types))
+  (setq dired-use-ls-dired nil)
   (exec-path-from-shell-initialize))
 ;; Exec path from shell
 (let ((path (shell-command-to-string ". ~/.zshrc; echo -n $PATH")))

@@ -1,3 +1,7 @@
+(unless (package-installed-p 'modus-themes)
+  (package-install 'modus-themes))
+(unless (package-installed-p 'doom-themes)
+  (package-install 'doom-themes))
 ;;Modus Theme
 (require 'modus-themes)
 
@@ -8,4 +12,4 @@
 ;;       modus-themes-hl-line '(accented)
 ;;       modus-themes-mixed-fonts t
 ;;       )
-(load-theme 'modus-operandi-deuteranopia t)
+(load-theme 'doom-homage-white t)
