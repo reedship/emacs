@@ -8,8 +8,7 @@
   :config
   (define-key projectile-mode-map (kbd "C-c p") 'projectile-commander)
 
-  (setq projectile-completion-system 'ivy
-        projectile-switch-project-action 'projectile-dired
+  (setq projectile-switch-project-action 'projectile-dired
         projectile-require-project-root nil))
 (setq projectile-project-search-path '("~/dev/"))
 (define-key projectile-mode-map (kbd "C-c C-p f") 'projectile-find-file)

@@ -20,8 +20,8 @@
   (default-text-scale-mode))
 
 ;; smex
-(require 'smex)
-(global-set-key (kbd "M-x") 'smex)
+;;(require 'smex)
+;;(global-set-key (kbd "M-x") 'smex)
 
 ;; savehist
 (savehist-mode)
@@ -53,8 +53,13 @@
 (use-package diminish)
 (use-package ag)
 ;; Ivy mode
-(ivy-mode 1)
+;;(ivy-mode 1)
 
+;; vertico
+(use-package vertico
+  :ensure t
+  :init
+  (vertico-mode))
 ;; windows specific settings
 (if (eq 'system-type "windows-nt")
     (setq default-directory "C:\\Users\\reed\\")

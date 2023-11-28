@@ -63,7 +63,7 @@
  '(mini-modeline-face-attr '(:background unspecified))
  '(org-src-block-faces 'nil)
  '(package-selected-packages
-   '(modus-themes doom-themes xwwp-follow-link-ivy enh-ruby-mode minimal-theme smex lsp-mode tree-sitter-langs writeroom-mode typescript-mode multiple-cursors which-key all-the-icons page-break-lines hl-todo visual-fill-column command-log-mode dashboard markdown-preview-mode creamsody-theme fira-code-mode vterm zzz-to-char docker markdown-mode web-mode helm-rails yaml-mode exec-path-from-shell counsel ef-themes windresize cl-libify ctable bufler dired-ranger dired-single all-the-icons-dired dired-collapse dired-rainbow default-text-scale diminish ws-butler tree-sitter company magit ivy projectile gruber-darker-theme ag use-package))
+   '(vertico org-roam org-bullets modus-themes doom-themes xwwp-follow-link-ivy enh-ruby-mode minimal-theme smex lsp-mode tree-sitter-langs writeroom-mode typescript-mode multiple-cursors which-key all-the-icons page-break-lines hl-todo visual-fill-column command-log-mode dashboard markdown-preview-mode creamsody-theme fira-code-mode vterm zzz-to-char docker markdown-mode web-mode helm-rails yaml-mode exec-path-from-shell counsel ef-themes windresize cl-libify ctable bufler dired-ranger dired-single all-the-icons-dired dired-collapse dired-rainbow default-text-scale diminish ws-butler tree-sitter company magit ivy projectile gruber-darker-theme ag use-package))
  '(pdf-view-midnight-colors '("#ffffff" . "#100f10"))
  '(pos-tip-background-color "#1A3734")
  '(pos-tip-foreground-color "#FFFFC8")
