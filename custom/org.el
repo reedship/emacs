@@ -71,3 +71,6 @@
   (org-roam-db-autosync-mode))
 
 (setq org-roam-dailies-directory "journal/")
+(use-package org-modern
+  :ensure t)
+(with-eval-after-load 'org (global-org-modern-mode))

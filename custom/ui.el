@@ -29,6 +29,6 @@
 (setq ring-bell-function 'ignore)
 (setq scroll-conservatively 100)
 (setq even-window-sizes t)
-
+(add-to-list 'default-frame-alist '(undecorated-round . t))
 ;; change current active window buffer face
 ;;(set-face-attribute 'mode-line nil :background "#165D8F")

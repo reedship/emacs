@@ -1,5 +1,6 @@
 (unless (package-installed-p 'projectile)
   (package-install 'projectile))
+
 ;; Configure shell to pull pash from ~/.zshrc
 (when (memq window-system '(mac ns x))
   (setq image-types (cons 'svg image-types))
@@ -24,9 +25,14 @@
 ;;(global-set-key (kbd "M-x") 'smex)
 
 ;; savehist
-(savehist-mode)
+(use-package savehist
+  :ensure t
+  :init
+  (savehist-mode))
+
 (setq savehist-additional-variables '(kill-ring search-ring regexp-search-ring))
 (setq savehist-file "~/.emacs.d/tmp/savehist")
+
 (setq
    backup-by-copying t      ; don't clobber symlinks
    backup-directory-alist
@@ -41,6 +47,7 @@
       '(display-buffer-reuse-mode-window
         display-buffer-reuse-window
         display-buffer-same-window))
+
 ;; company mode
 (add-hook 'after-init-hook 'global-company-mode)
 
@@ -52,14 +59,25 @@
 ;; hide minor modes from modelines
 (use-package diminish)
 (use-package ag)
-;; Ivy mode
-;;(ivy-mode 1)
 
 ;; vertico
 (use-package vertico
   :ensure t
+  :custom
+  (setq vertico-cycle t)
   :init
-  (vertico-mode))
+  (vertico-mode)
+  (setq completion-styles '(substring partial-completion)))
+
+(use-package marginalia
+  :after vertico
+  :ensure t
+  :custom
+  (marginalia-annotators '(marginalia-annotators-light nil))
+  (marginalia-align 'right)
+  :init
+  (marginalia-mode))
+
 ;; windows specific settings
 (if (eq 'system-type "windows-nt")
     (setq default-directory "C:\\Users\\reed\\")
@@ -82,9 +100,11 @@
   :ensure t
   :mode ("README\\.md\\'" . gfm-mode)
   :init (setq markdown-command "multimarkdown"))
+
 ;; desktop save mode
 (desktop-save-mode 0)
 (setq make-backup-files nil)
+
 ;;(global-fira-code-mode)
 
 (setq hl-todo-keyword-faces '(("TODO" . "#00008B")

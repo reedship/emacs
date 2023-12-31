@@ -35,3 +35,5 @@
 ;;(add-hook 'typescript-mode-hook (lambda () ('lsp-mode 1)))
 (use-package eglot
   :ensure t)
+
+(setq-default typescript-indent-level 2)

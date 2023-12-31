@@ -33,3 +33,9 @@
 (global-set-key (kbd "C-x f") 'imenu)
 (global-set-key (kbd "C-SPC") 'set-mark-command)
 (global-set-key (kbd "C-SPC") 'set-mark-command)
+
+
+;; expand region highlighting.
+(use-package expand-region
+  :bind ("C-=" . er/expand-region)
+  :bind ("C--" . er/contract-region))

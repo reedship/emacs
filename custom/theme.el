@@ -12,4 +12,4 @@
 ;;       modus-themes-hl-line '(accented)
 ;;       modus-themes-mixed-fonts t
 ;;       )
-(load-theme 'doom-homage-white t)
+(load-theme 'doom-nord t)
