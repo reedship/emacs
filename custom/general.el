@@ -111,3 +111,7 @@
                               ("HACK" . "#ffff00")
                               ("XXX" . "#00ffff")
                               ("NOTE" . "#ff00ff")))
+
+
+;; Open pictures regardless of size
+(set 'large-file-warning-threshold nil)
